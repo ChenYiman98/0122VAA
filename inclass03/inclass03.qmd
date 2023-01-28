@@ -24,7 +24,7 @@ pacman::p_load(tidyverse,ggraph)
 import data
 
 ```{r}
-exam_data <- read.csv("/Users/chenyiman/ChenYiman/demo0115/ChenYiman98/0122VAA/inclass/data/Exam_data.csv")
+exam_data <- read.csv(/Users/chenyiman/Desktop/Visualization/Lesson02/handson/data/Exam_data.csv)
 ```
 
 ```{r}
@@ -32,5 +32,3 @@ ggplot(data= exam_data,
           aes(x = MATHS))+
     geom_dotplot(dotsize = 0.5)
 ```
-
-

@@ -8,10 +8,11 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - text: "in-class ex03"
+      
+      - text: inclass 
         menu: 
-          - text: "in-class ex03"
-          - href: "inclass03.qmd"
+          - text: in-class ex03
+          - href: inclass03/inclass03.qmd
 
 format:
   html:
