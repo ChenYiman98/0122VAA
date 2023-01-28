@@ -8,6 +8,10 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - text: "in-class ex03"
+        menu: 
+          - text: "in-class ex03"
+          - href: "inclass03.qmd"
 
 format:
   html:
@@ -16,4 +20,5 @@ format:
     toc: true
 
 editor: visual
+
 
